@@ -1,0 +1,79 @@
+[
+    {
+        "host": "daohaisan.vn",
+        "urls": [
+            "https://daohaisan.vn/collections/ngao-so-oc",
+            "https://daohaisan.vn/collections/cua-ghe",
+            "https://daohaisan.vn/collections/cac-loai-tom-ngon",
+            "https://daohaisan.vn/collections/muc",
+            "https://daohaisan.vn/collections/ca"
+        ],
+        "hrefDetailSelector": "div > div.name > a",
+        "protocol": "https://",
+        "nameSelector": "div > h1",
+        "priceSelector": ".product_price",
+        "imageSelector": "#zoomparent > img"
+    },
+    {
+        "host": "hieuhaisan.com",
+        "urls": [
+            "https://hieuhaisan.com/tom.html",
+            "https://hieuhaisan.com/ca.html",
+            "https://hieuhaisan.com/cua-ghe.html",
+            "https://hieuhaisan.com/so-oc.html",
+            "https://hieuhaisan.com/muc.html",
+            "https://hieuhaisan.com/hai-san-kho-mot-nang.html"
+        ],
+        "hrefDetailSelector": ".product_list > ul > a",
+        "protocol": "https://",
+        "nameSelector": "#proView > div.viewRight > div.titleView",
+        "priceSelector": "#proView > div.viewRight > h1",
+        "imageSelector": "#zoom1"
+    },
+    {
+        "host": "canghaisan.com",
+        "urls": [
+            "https://canghaisan.com/danh-muc-san-pham/ca-bien/page/2/",
+            "https://canghaisan.com/danh-muc-san-pham/cua-ghe/",
+            "https://canghaisan.com/danh-muc-san-pham/cua-ghe/",
+            "https://canghaisan.com/danh-muc-san-pham/muc-bach-tuoc/",
+            "https://canghaisan.com/danh-muc-san-pham/cha-ca/",
+            "https://canghaisan.com/danh-muc-san-pham/ca-dong/"
+        ],
+        "hrefDetailSelector": ".thuandungko > div.add-to-cart-button > a",
+        "protocol": "https://",
+        "nameSelector": ".entry-title",
+        "priceSelector": ".product-page-price .amount",
+        "imageSelector": ".wp-post-image"
+    },
+    {
+        "host": "hasasa.vn",
+        "urls": [
+            "http://hasasa.vn/hai-san-tuoi-song.html",
+            "http://hasasa.vn/hai-san-kho.html",
+            "http://hasasa.vn/hai-san-dong-lanh.html",
+            "http://hasasa.vn/ca-tuoi-moi-ngay.html"
+        ],
+        "hrefDetailSelector": ".product-title",
+        "protocol": "http://",
+        "nameSelector": "form > .ty-product-block-title",
+        "priceSelector": ".span9 > .ty-product-block__left > form > .row-fluid > .span8 > .prices-container > .ty-product-prices > .ty-product-block__price-actual > .ty-price-update > .ty-price > .ty-price-num",
+        "imageSelector": ".cm-image-previewer"
+    },
+    {
+        "host": "giadinhhaisan.com",
+        "urls": [
+            "https://giadinhhaisan.com/ca.html",
+            "https://giadinhhaisan.com/tom.html",
+            "https://giadinhhaisan.com/muc.html",
+            "https://giadinhhaisan.com/cua-ghe.html",
+            "https://giadinhhaisan.com/ngao-so-oc.html",
+            "https://giadinhhaisan.com/cac-san-pham-khac.html"
+        ],
+        "hrefDetailSelector": "div.col-xs-7 > a",
+        "protocol": "https://",
+        "nameSelector": "#detail-name",
+        "priceSelector": "#detail-price",
+        "imageSelector": "#Zoomer > img"
+    }
+]
